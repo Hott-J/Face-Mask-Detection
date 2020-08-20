@@ -12,7 +12,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## 🔥 What is Streamlit?
-Streamlit’s open-source app framework is the easiest way for data scientists and machine learning engineers to create beautiful, performant apps in only a few hours!  All in pure Python. All for free.<br/>
+Streamlit is an open-source Python library that makes it easy to build beautiful custom web-apps for machine learning and data science. To use it, just pip install streamlit , then import it, write a couple lines of code, and run your script with streamlit run [filename] <br/>
 <p align="center"><img src="https://user-images.githubusercontent.com/47052106/90765856-a46b1e00-e325-11ea-9b2a-549fb4f96151.png" width="400" height="200"></p>
 
 ## 🌈 Introduction
@@ -23,7 +23,8 @@ In the present scenario due to Covid-19, there is no efficient face mask detecti
 ## ⚡️ Project Demo
 - Image
 <br/>
-
+![image](https://user-images.githubusercontent.com/47052106/90777140-fae05880-e335-11ea-8710-933162ddf92f.JPG)
+<br/>
 - Video
 <br/>
 
@@ -33,6 +34,7 @@ In the present scenario due to Covid-19, there is no efficient face mask detecti
 ## 👉 Which Tech & framework used ?
 
 - [OpenCV](https://opencv.org/)
+- [OpenH264](https://https://github.com/cisco/openh264)
 - [Face detector Model](https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/)
 - [Keras](https://keras.io/)
 - [TensorFlow](https://www.tensorflow.org/)

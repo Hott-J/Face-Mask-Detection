@@ -71,7 +71,6 @@ The images used were real images of faces wearing masks. The images were collect
 
 All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](https://github.com/Hott-J/Face-Mask-Detection/blob/master/requirements.txt) <br/>
 Also, If you want to upload to the web, you need to download OpenH264. <br/> Link ✅ (https://https://github.com/cisco/openh264)
-
 After download openh264 dll, move it into python library.
 
 ![openh264](https://user-images.githubusercontent.com/47052106/90783313-ddfa5400-e33a-11ea-8ff4-61620be8e8b7.JPG)

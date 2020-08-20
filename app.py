@@ -264,6 +264,7 @@ def mask_detection():
                     if st.button('Process'):
                             mask_video()
                             vid_file=open("./images/out_video_result.mp4","rb").read()
+			    st.video(vid_file,start_time=0)
                             
 	if choice == 'Webcam':
                 st.subheader("Detection on Webcam")

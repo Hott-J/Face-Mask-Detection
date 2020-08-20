@@ -52,6 +52,8 @@ In the present scenario due to Covid-19, there is no efficient face mask detecti
 - Realtime - Webcam
 <br/>
 
+![webcam](https://user-images.githubusercontent.com/47052106/90784866-ae4c4b80-e33c-11ea-8977-80ae5e4380b6.JPG)
+
 <br/>
 
 ## 📁 Dataset

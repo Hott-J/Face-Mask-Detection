@@ -54,7 +54,7 @@ In the present scenario due to Covid-19, there is no efficient face mask detecti
 
 <br/>
 
-## :file_folder Dataset
+## 📁 Dataset
 The dataset used can be downloaded here - [Click to Download](https://drive.google.com/drive/folders/1XDte2DL2Mf_hw4NsmGst7QtYoU7sMBVG?usp=sharing)
 
 This dataset consists of __3835 images__ belonging to two classes:
@@ -67,13 +67,13 @@ The images used were real images of faces wearing masks. The images were collect
 * __Kaggle datasets__ 
 * __RMFD dataset__ ([See here](https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset))
 
-## :key Prerequisites
+## 📌 Prerequisites
 
 All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](https://github.com/Hott-J/Face-Mask-Detection/blob/master/requirements.txt)
 
 <br/>
 
-## 🚀 Installation
+## 🚀 How to Install
 1. Clone the repo
 ```
 $ git clone https://github.com/Hott-J/Face-Mask-Detection.git
@@ -84,44 +84,49 @@ $ git clone https://github.com/Hott-J/Face-Mask-Detection.git
 $ mkvirtualenv test
 ```
 
-3. Now, run the following command in your Terminal/Command Prompt to install the libraries required
+3. Install the libraries required
 ```
-$ pip install -r requirements.txt / pip3 install -r requirements.txt
+$ pip3 install -r requirements.txt / pip install -r requirements.txt
 ```
 
-## :bulb Working
+## 💥 How to Run
 
-1. Open terminal. Go into the cloned project directory folder and type the following command:
+1. Go into the cloned project directory folder and type the following command:
 ```
 $ python3 train_mask_detector.py --dataset dataset
 ```
 
-2. To detect face masks in an image type the following command: 
+2. To detect face masks in a static image, type the following command: 
 ```
 $ python3 detect_mask_image.py --image images/pic1.jpeg
 ```
 
-3. To detect face masks in real-time video streams type the following command:
+3. To detect face masks in a static video streams, type the following command:
 ```
 $ python3 detect_mask_video.py 
 ```
-## :key Results
 
-#### Our model gave 93% accuracy for Face Mask Detection after training via <code>tensorflow-gpu==2.0.0</code>
+<br/>
+
+## 🍭 Results
+
+#### This Model gave 93% accuracy for Face Mask Detection after training via <code>tensorflow-gpu==2.0.0</code>
 
 ![](https://github.com/chandrikadeb7/Face-Mask-Detection/blob/master/Readme_images/Screenshot%202020-06-01%20at%209.48.27%20PM.png)
 
 #### We got the following accuracy/loss training curve plot
 ![](https://github.com/chandrikadeb7/Face-Mask-Detection/blob/master/plot.png)
 
-## Streamlit app
+<br/>
 
-Face Mask Detector webapp using Tensorflow & Streamlit
+## 🐶 How to Run in Streamlit Webapp
 
-command
+1. Go into the cloned project directory folder and type the following command:
 ```
 $ streamlit run app.py 
 ```
 
-## :clap And it's done!
-Feel free to mail me for any doubts/query 
+<br/>
+
+## ☘️ Finish!
+Feel free to mail me for any query! Thank you ❤️

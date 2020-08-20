@@ -24,11 +24,14 @@ In the present scenario due to Covid-19, there is no efficient face mask detecti
 - Image
 <br/>
 
-![image](https://user-images.githubusercontent.com/47052106/90777140-fae05880-e335-11ea-8710-933162ddf92f.JPG)
+![image](https://user-images.githubusercontent.com/47052106/90777920-fa948d00-e336-11ea-9f59-15861f5c84ee.JPG)
 
 <br/>
+
 - Video
 <br/>
+
+
 
 - Realtime - Webcam
 

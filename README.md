@@ -14,9 +14,8 @@
 ## 🔥 What is Streamlit?
 <br/>
 Streamlit’s open-source app framework is the easiest way for data scientists and machine learning engineers to create beautiful, performant apps in only a few hours!  All in pure Python. All for free.
-<div align="center">
-  ![streamlit](https://user-images.githubusercontent.com/47052106/90765856-a46b1e00-e325-11ea-9b2a-549fb4f96151.png)
-</div>
+
+![streamlit](https://user-images.githubusercontent.com/47052106/90765856-a46b1e00-e325-11ea-9b2a-549fb4f96151.png)
 
 <br/>
 

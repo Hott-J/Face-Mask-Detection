@@ -67,6 +67,8 @@ The images used were real images of faces wearing masks. The images were collect
 * __Kaggle datasets__ 
 * __RMFD dataset__ ([See here](https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset))
 
+<br/>
+
 ## 📌 Prerequisites
 
 All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](https://github.com/Hott-J/Face-Mask-Detection/blob/master/requirements.txt)
@@ -96,6 +98,8 @@ $ mkvirtualenv test
 ```
 $ pip3 install -r requirements.txt / pip install -r requirements.txt
 ```
+
+<br/>
 
 ## 💥 How to Run
 

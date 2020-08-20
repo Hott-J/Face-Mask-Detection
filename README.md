@@ -11,31 +11,6 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-## 🔥 What is Streamlit?
-Streamlit is an open-source Python library that makes it easy to build beautiful custom web-apps for machine learning and data science. To use it, just pip install streamlit , then import it, write a couple lines of code, and run your script with streamlit run [filename] <br/>
-<p align="center"><img src="https://user-images.githubusercontent.com/47052106/90765856-a46b1e00-e325-11ea-9b2a-549fb4f96151.png" width="400" height="200"></p>
-
-## 🌈 Introduction
-In the present scenario due to Covid-19, there is no efficient face mask detection applications which are now in high demand for transportation means, densely populated areas, residential districts, large-scale manufacturers and other enterprises to ensure safety. Also, the absence of large datasets of __‘with_mask’__ images has made this task more cumbersome and challenging. 
-
-<br/>
-
-## ⚡️ Project Demo
-- Image
-<br/>
-
-![image](https://user-images.githubusercontent.com/47052106/90777920-fa948d00-e336-11ea-9f59-15861f5c84ee.JPG)
-
-<br/>
-
-- Video
-<br/>
-
-
-
-- Realtime - Webcam
-
-
 ## 👉 Which Tech & framework used ?
 
 - [OpenCV](https://opencv.org/)
@@ -45,6 +20,37 @@ In the present scenario due to Covid-19, there is no efficient face mask detecti
 - [TensorFlow](https://www.tensorflow.org/)
 - [MobileNetV2](https://arxiv.org/abs/1801.04381)
 - [Streamlit](https://www.streamlit.io/)
+
+<br/>
+
+## 🔥 What is Streamlit?
+Streamlit is an open-source Python library that makes it easy to build beautiful custom web-apps for machine learning and data science. To use it, just pip install streamlit , then import it, write a couple lines of code, and run your script with streamlit run [filename] <br/>
+<p align="center"><img src="https://user-images.githubusercontent.com/47052106/90765856-a46b1e00-e325-11ea-9b2a-549fb4f96151.png" width="400" height="200"></p>
+
+<br/>
+
+## 🌈 Introduction
+In the present scenario due to Covid-19, there is no efficient face mask detection applications which are now in high demand for transportation means, densely populated areas, residential districts, large-scale manufacturers and other enterprises to ensure safety. Also, the absence of large datasets of __‘with_mask’__ images has made this task more cumbersome and challenging. 
+
+<br/>
+
+## ⚡️ Project Demo
+- Static Image
+<br/>
+
+![image](https://user-images.githubusercontent.com/47052106/90777920-fa948d00-e336-11ea-9f59-15861f5c84ee.JPG)
+
+<br/>
+
+- Static Video
+<br/>
+
+![video](https://user-images.githubusercontent.com/47052106/90778045-20219680-e337-11ea-9b01-77c9a7864fda.JPG)
+
+<br/>
+
+- Realtime - Webcam
+<br/>
 
 ## :star: Features
 Our face mask detector didn't use any morphed masked images dataset. The model is accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient and thus making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, etc.).
@@ -71,7 +77,7 @@ All the dependencies and required libraries are included in the file <code>requi
 ## 🚀&nbsp; Installation
 1. Clone the repo
 ```
-$ git clone https://github.com/chandrikadeb7/Face-Mask-Detection.git
+$ git clone https://github.com/Hott-J/Face-Mask-Detection.git
 ```
 
 2. Change your directory to the cloned repo and create a Python virtual environment named 'test'
@@ -81,7 +87,7 @@ $ mkvirtualenv test
 
 3. Now, run the following command in your Terminal/Command Prompt to install the libraries required
 ```
-$ pip3 install -r requirements.txt
+$ pip install -r requirements.txt / pip3 install -r requirements.txt
 ```
 
 ## :bulb: Working
@@ -134,14 +140,8 @@ Feel free to mail me for any doubts/query
 
 
 ## :handshake: Contribution
-Feel free to **file a new issue** with a respective title and description on the the [Face-Mask-Detection](https://github.com/chandrikadeb7/Face-Mask-Detection/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**! 
 
-## :heart: Owner
-Made with :heart:&nbsp;  by [Chandrika Deb](https://github.com/chandrikadeb7)
-
-## :+1: Credits
-* [https://www.pyimagesearch.com/](https://www.pyimagesearch.com/)
 * [https://www.tensorflow.org/tutorials/images/transfer_learning](https://www.tensorflow.org/tutorials/images/transfer_learning)
 
 ## :eyes: License
-MIT © [Chandrika Deb](https://github.com/chandrikadeb7/Face-Mask-Detection/blob/master/LICENSE)
+MIT ©

@@ -22,8 +22,10 @@ In the present scenario due to Covid-19, there is no efficient face mask detecti
 ## ⚡️ Project Demo
 - Image
 <br/>
+
 - Video
 <br/>
+
 - Realtime - Webcam
 
 

@@ -13,7 +13,6 @@
 
 ## 🔥 What is Streamlit?
 Streamlit’s open-source app framework is the easiest way for data scientists and machine learning engineers to create beautiful, performant apps in only a few hours!  All in pure Python. All for free.<br/>
-Link 👉 https://www.streamlit.io/ 
 <p align="center"><img src="https://user-images.githubusercontent.com/47052106/90765856-a46b1e00-e325-11ea-9b2a-549fb4f96151.png" width="400" height="200"></p>
 
 ## 🌈 Introduction
@@ -29,13 +28,14 @@ In the present scenario due to Covid-19, there is no efficient face mask detecti
 - Realtime - Webcam
 
 
-## :warning: Tech/framework used
+## 👉 Which Tech & framework used ?
 
 - [OpenCV](https://opencv.org/)
-- [Caffe-based face detector](https://caffe.berkeleyvision.org/)
+- [Face detector Model](https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/)
 - [Keras](https://keras.io/)
 - [TensorFlow](https://www.tensorflow.org/)
 - [MobileNetV2](https://arxiv.org/abs/1801.04381)
+- [Streamlit](https://www.streamlit.io/)
 
 ## :star: Features
 Our face mask detector didn't use any morphed masked images dataset. The model is accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient and thus making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, etc.).

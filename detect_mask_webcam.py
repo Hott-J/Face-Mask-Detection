@@ -66,11 +66,16 @@ def mask_webcam():
 
             # 추출한 얼굴영역을 전처리
 
-            face_input = cv2.resize(face, dsize=(224, 224))
-            face_input = cv2.cvtColor(face_input, cv2.COLOR_BGR2RGB)
-            face_input = preprocess_input(face_input)
-            face_input = np.expand_dims(face_input, axis=0)
-
+            while True:
+                try:
+                    face_input = cv2.resize(face, dsize=(224, 224))
+                    face_input = cv2.cvtColor(face_input, cv2.COLOR_BGR2RGB)
+                    face_input = preprocess_input(face_input)
+                    face_input = np.expand_dims(face_input, axis=0)
+                    break
+                except:
+                    print("resize error")
+                    break
 
             # 마스크 검출 모델로 결과값 return
             (hmask,mask, nomask) = model.predict(face_input).squeeze()
